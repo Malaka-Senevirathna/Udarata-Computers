@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udarata Computers</title>
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/uDarata Logo.png" alt="Logo" #="hero-img" style="height: 30px;">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="pc_peripherals.html">PC Components</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">about us</a></li>
+            </ul>
+            <div class="cart-icon">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+            
+                <span class="cart-count">1</span>
+            
+            </div>
+        </nav>
+
+        <!-- SIDEBAR CART -->
+
+<!-- CART ICON -->
+
+
+<!-- OVERLAY -->
+<div class="cart-overlay"></div>
+
+<!-- SIDEBAR -->
+<div class="cart-sidebar">
+
+    <!-- TOP -->
+    <div class="cart-header">
+
+        <h2>Your Cart</h2>
+
+        <button class="close-cart">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+    <!-- CART ITEMS -->
+    <div class="cart-items"></div>
+
+    <!-- FOOTER -->
+    <div class="cart-footer">
+
+        <div class="total-row">
+            <span>Total</span>
+            <h3>Rs 0</h3>
+        </div>
+
+        <button class="checkout-btn">
+            CHECKOUT
+        </button>
+
+    </div>
+
+</div>
+        
+        <div class="hero-content">
+            <div class="hero-image-container">
+                <img src="assets/Hero.jpg" alt="PC Build" class="hero-img">
+                <div class="hero-text-overlay1">
+                    <h1 class="hero-title1">Dream Build</h1>    
+                </div>
+                <div class="hero-text-overlay2">
+                    <h1 class="hero-title2">Into a Reality</h1>
+                </div>
+            </div>
+            
+            <div class="hero-text-left">
+                <p>Thanks to Udarata Computer's Precision "Built it yourself" tool , allows Customer to build their dream build as they dreamed , allowing for more creativity headroom.</p>
+            </div>
+            
+            <div class="hero-text-right">
+                <p>whether you're team AMD or INTEL , We have you covered.</p>
+            </div>
+            
+            <button class="build-now-btn">Build Now</button>
+        </div>
+    </header>
+
+    <!-- Trusted IT Partner Section -->
+    <section class="trusted-section">
+        <h2>Sri lanka's Trusted IT Partner</h2>
+        <p class="subtitle">Continuously Striving to remain the most innovative solution provider in the Island.</p>
+        
+        <div class="trusted-images">
+            <img src="assets/home 01.jpeg" alt="PC Case" class="img-tall">
+            <img src="assets/home 02.jpeg" alt="Headphones" class="img-tall">
+            <img src="assets/home 03.jpeg" alt="Laptop" class="img-tall">
+        </div>
+        
+        <div class="trusted-stats">
+            <div class="stat">
+                <h3>10</h3>
+                <p>Years of excellence</p>
+            </div>
+            <div class="stat">
+                <h3>300K+</h3>
+                <p>Happy Customers</p>
+            </div>
+            <div class="stat">
+                <h3>100+</h3>
+                <p>Latest Products Every month</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section class="new-arrivals">
+        <h2>New Arrivals</h2>
+        <p class="subtitle">Newly added products to the website . Be the first to grab !</p>
+        
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="assets/Macbook Neo.png" alt="MacBook Neo A18">
+                </div>
+                <div class="product-info">
+                    <h4>MacBook Neo A18 Pro 8GB 256GB - Indigo</h4>
+                    <div class="price-row">
+                        <span class="price">Rs 305,000.00</span>
+                    
+                        <span class="add-to-cart"
+                              data-name="MacBook Neo A18 Pro"
+                              data-price="305000">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="assets/thermalright pa 120 SE.jpg" alt="Thermalright Cooler">
+                </div>
+                <div class="product-info">
+                    <h4>Thermalright Peerless Assassin 120 SE</h4>
+                    <div class="price-row">
+                        <span class="price">Rs 22,000.00</span>
+                    
+                        <span class="add-to-cart"
+                              data-name="Thermalright PA 120 SE"
+                              data-price="22000">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="assets/gravestar pro KB.jpg" alt="GraveStar Keyboard">
+                </div>
+                <div class="product-info">
+                    <h4>GraveStar Mercury K1 Pro Wireless</h4>
+                    <div class="price-row">
+                        <span class="price">Rs 63,000.00</span>
+                    
+                        <span class="add-to-cart"
+                              data-name="GraveStar Mercury K1"
+                              data-price="63000">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="assets/G pro  ss 2.png" alt="Logitech Mouse">
+                </div>
+                <div class="product-info">
+                    <h4>Logitech G Pro Superstrike X2</h4>
+                    <div class="price-row">
+                        <span class="price">Rs 60,000.00</span>
+                    
+                        <span class="add-to-cart"
+                              data-name="Logitech Superstrike X2"
+                              data-price="60000">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="assets/rog monitor.PNG" alt="ASUS Monitor">
+                </div>
+                <div class="product-info">
+                    <h4>ASUS ROG Swift OLED PG27AQWP - W - Tandem OLED</h4>
+                    <div class="price-row">
+                        <span class="price">Rs 500,000.00</span>
+                    
+                        <span class="add-to-cart"
+                              data-name="ASUS ROG Swift OLED PG27AQWP"
+                              data-price="500000">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="assets/9950x3D2.png" alt="AMD Ryzen CPU">
+                </div>
+                <div class="product-info">
+                    <h4>AMD Ryzen 9950X3D2 Dual Edition</h4>
+                    <div class="price-row">
+                        <span class="price">Rs 210,000.00</span>
+                    
+                        <span class="add-to-cart"
+                              data-name="AMD Ryzen 9950X3D2"
+                              data-price="210000">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 7 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="assets/DJI OSMO.png" alt="DJI Gimbal">
+                </div>
+                <div class="product-info">
+                    <h4>DJI OSMO Mobile - 8P</h4>
+                    <div class="price-row">
+                        <span class="price">Rs 60,000.00</span>
+                    
+                        <span class="add-to-cart"
+                              data-name="DJI OSMO Mobile"
+                              data-price="60000">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 8 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="assets/airpods.PNG" alt="AirPods Max">
+                </div>
+                <div class="product-info">
+                    <h4>Apple AirPod MAX 2</h4>
+                    <div class="price-row">
+                        <span class="price">Rs 205,000.00</span>
+                        <span class="add-to-cart"
+                              data-name="Apple AirPod MAX 2"
+                              data-price="205000">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pro Categories Section -->
+    <section class="pro-categories">
+        <h2>Pro Categories</h2>
+        <p class="subtitle">Select From Latest Generation performance components and configurations as you prefer.</p>
+        
+        <div class="category-grid">
+            <div class="category-card">
+                <div class="cat-content">
+                    <h3>MONITORS</h3>
+                    <p>Select your preferred monitor through 50+ monitor collection for stunning visual Clarity.</p>
+                    <a href="#" class="check-out">Check Out &rarr;</a>
+                </div>
+                <img src="assets/Monitors.png" alt="Monitors">
+            </div>
+            <div class="category-card">
+                <div class="cat-content">
+                    <h3>COOLERS</h3>
+                    <p>Check out our high performance coolers for a superior airflow and enhanced performance.</p>
+                    <a href="#" class="check-out">Check Out &rarr;</a>
+                </div>
+                <img src="assets/Coolers.png" alt="Coolers">
+            </div>
+            <div class="category-card">
+                <div class="cat-content">
+                    <h3>SIMULATORS</h3>
+                    <p>Take your driving experience to the next level. Check out our MOZA Racing Simulators.</p>
+                    <a href="#" class="check-out">Check Out &rarr;</a>
+                </div>
+                <img src="assets/Simulators.png" alt="Simulators">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pro Partners Section -->
+    <section class="pro-partners">
+        <h2>Pro Partners</h2>
+        <p class="subtitle">Select From globally recognized brands who levels up the performance metrics of their gears to the next every single day.</p>
+        
+        <div class="partner-grid">
+            <div class="partner-card">
+                <div class="partner-img-wrapper">
+                    <img src="assets/gravestar KB.jpg" alt="GraveStar Keyboard">
+                </div>
+                <div class="partner-content">
+                    <h3>GraveStar</h3>
+                    <p>Company who's behind the infamous Mercury K1 Pro Mechanical Keyboard.</p>
+                    <a href="#" class="check-out">Check Out &rarr;</a>
+                </div>
+            </div>
+            <div class="partner-card">
+                <div class="partner-img-wrapper">
+                    <img src="assets/thermaltake.PNG" alt="Thermaltake">
+                </div>
+                <div class="partner-content">
+                    <h3>Thermaltake</h3>
+                    <p>Check out their power supplies , cooling solutions and cases as well.</p>
+                    <a href="#" class="check-out">Check Out &rarr;</a>
+                </div>
+            </div>
+            <div class="partner-card">
+                <div class="partner-img-wrapper">
+                    <img src="assets/asus mobo.PNG" alt="ASUS Motherboard">
+                </div>
+                <div class="partner-content">
+                    <h3>ASUS</h3>
+                    <p>Select High performance hardware designed to perform overkill.</p>
+                    <a href="#" class="check-out">Check Out &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="review-logos">
+            <img src="assets/google name.svg" alt="Google" style="height: 35px;">
+            <img src="assets/trustpilot name.svg" alt="Trustpilot" style="height: 35px;">
+        </div>
+        <p class="subtitle" style="margin-bottom: 2rem;">Based on 1500+ Google and Trustpilot Reviews</p>
+        
+        <div class="review-grid">
+            <!-- Review 1 -->
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <span class="trust-icon"><img src="assets/trustpilot star.svg" alt="Trustpilot" style="height: 20px;"></span>
+                </div>
+                <p class="review-text">I recently purchased an iMac M3 worth 790,000 LKR from Udarata Computers, and it was hands down the best experience I've ever had! From the moment I walked in, their customer service was exceptional. The staff was knowledgeable, friendly, and ensured I had all the details I needed to make an informed purchase.</p>
+                <h4 class="reviewer-name">Chamath Bhanuka</h4>
+            </div>
+            <!-- Review 2 -->
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <span class="trust-icon"><img src="assets/google logo.svg" alt="Trustpilot" style="height: 20px;"></span>
+                </div>
+                <p class="review-text">I'm writing to express my extreme satisfaction with Udarata Computers! From the moment I walked in, I was impressed by the exceptional service. The staff was incredibly knowledgeable, patient, and helped me find the perfect solution for my needs. Specifically, I wanted to upgrade my CPU cooling and they recommended the new Arctic Liquid Freezer 3 cooler. My CPU temperatures have dropped significantly, and my system runs quieter than ever.</p>
+                <h4 class="reviewer-name">Naveen Gamage</h4>
+            </div>
+            <!-- Review 3 -->
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <span class="trust-icon"><img src="assets/trustpilot star.svg" alt="Trustpilot" style="height: 20px;"></span>
+                </div>
+                <p class="review-text">Really good customer service. I went to fix the problem in the lap (motherboard repair) and the work was done by the technical team within a short time of about an hour. Another guys said these motherboard issues cannot be repaired by other shops. But they fixed it quickly, really friendly customer service. I 100% recommend Udarata Computers. Thank you Udarata Computers.</p>
+                <h4 class="reviewer-name">Romesh Chamal</h4>
+            </div>
+            <!-- Review 4 -->
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <span class="trust-icon"><img src="assets/google logo.svg" alt="Trustpilot" style="height: 20px;"></span>
+                </div>
+                <p class="review-text">I visited Udarata Computers last December to build my 1st PC. First of all I would like to thank them for the outstanding service I received. They gave me an in detailed explanation about all the components and guided me to select perfect fits.</p>
+                <h4 class="reviewer-name">Tharaka Herath</h4>
+            </div>
+            <!-- Review 5 -->
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <span class="trust-icon"><img src="assets/trustpilot star.svg" alt="Trustpilot" style="height: 20px;"></span>
+                </div>
+                <p class="review-text">I'm a music composer and had been using the same PC for ten years, but with the demands of modern software and VST plugins, it became slow and unreliable. I decided to build a completely new PC and chose Udarata Computers for the job. They built me a stunning PC with the latest features, far exceeding my expectations, and provided exceptional support throughout the process.</p>
+                <h4 class="reviewer-name">Sathil Hewage</h4>
+            </div>
+            <!-- Review 6 -->
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <span class="trust-icon"><img src="assets/google logo.svg" alt="Trustpilot" style="height: 20px;"></span>
+                </div>
+                <p class="review-text">I recently visited Udarata Computer and was blown away by the amazing atmosphere. It's by far the best computer store I've ever been to! The customer service is top-notch-friendly, knowledgeable, and always willing to help.</p>
+                <h4 class="reviewer-name">Sandun Perera</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img src="assets/uDarata Logo.png" alt="Udarata Logo" style="width: 100%;">
+            </div>
+            <div class="footer-col">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact US</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>BRANDS</h4>
+                <ul>
+                    <li><a href="#">ARCTIC</a></li>
+                    <li><a href="#">Thermaltake</a></li>
+                    <li><a href="#">ASUS</a></li>
+                    <li><a href="#">GIGABYTE</a></li>
+                    <li><a href="#">KEYCHRON</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>SUPPORT</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Returns and Refunds</a></li>
+                    <li><a href="#">Warranty</a></li>
+                </ul>
+            </div>
+            <div class="footer-col social-col">
+                <h4>Catch up us on</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitch"></i></a>
+                    <a href="#"><i class="fa-brands fa-reddit"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 All rights reserved by Udarata Computers.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+   
+
+<div>
+
+   
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
